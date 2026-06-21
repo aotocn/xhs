@@ -1,0 +1,12 @@
+```yaml
+services:
+  xhsuhd:
+    image: iptvtop/xhsuhd:latest
+    container_name: xhsuhd
+    restart: always
+    ports:
+      - "34567:34567"
+    environment:
+      XHS_A1: "19eba0669d9zoo2kj9nd7d4s9uet61fjex0ccvehs50000279554"
+      XHS_WEB_SESSION: "0400697246cfb7541480c9cd06384b11220521"
+```
