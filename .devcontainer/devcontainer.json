@@ -1,12 +1,7 @@
 {
-  "forwardPorts": [6001, 34567, 38766], // 需要自动转发的端口列表
+  "forwardPorts": [34567, 38766],
   "portsAttributes": {
-    "3": {
-      "visibility": "public", // 核心：默认公开
-      "label": "自定义端口名称"
-    },
-    "3000": {
-      "visibility": "public"
-    }
+    "34567": {"visibility": "public"},
+    "38766": {"visibility": "public"}
   }
 }
